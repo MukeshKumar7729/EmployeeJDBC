@@ -1,3 +1,4 @@
+# EmployeeJDBC
 Employee JDBC Management Project
 Project Overview
 
@@ -15,10 +16,6 @@ Update an employee's salary by ID.
 Delete an employee by ID.
 
 Console-based menu-driven interface.
-
-Technology Stack
-
-Java (Java 8+ recommended)
 
 
 
