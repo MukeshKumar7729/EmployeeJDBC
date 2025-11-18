@@ -20,6 +20,9 @@ Technology Stack
 
 Java (Java 8+ recommended)
 
+
+
+
 MySQL database
 
 JDBC (Java Database Connectivity)
@@ -38,6 +41,7 @@ EmployeeJDBCProject/
    │   └─ resources/       # Optional: config files
    └─ test/
        └─ java/            # Optional: unit tests
+
 
 Database Setup
 
@@ -61,6 +65,9 @@ static final String URL = "jdbc:mysql://localhost:3306/Insys";
 static final String USER = "root";
 static final String PASS = "your_mysql_password";
 
+
+
+
 Setup & Running
 
 Clone or download this project.
@@ -68,6 +75,10 @@ Clone or download this project.
 Open a terminal and navigate to the project folder:
 
 cd EmployeeJDBCProject
+
+
+
+
 
 
 Compile and run using Maven:
@@ -87,10 +98,12 @@ MySQL Connector/J: Included in pom.xml
     <version>8.1.0</version>
 </dependency>
 
+
+
 Notes
 
 Use classic switch-case syntax if using Java < 14.
 
 Make sure MySQL server is running and the database Insys exists.
 
-This is a console application, not a GUI application.# EmployeeJDBC
+This is a console application, not a GUI application.
