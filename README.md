@@ -1,5 +1,6 @@
 # EmployeeJDBC
-#Employee JDBC Management Project
+
+Employee JDBC Management Project
 Project Overview
 
 This is a simple Java JDBC console application that performs CRUD operations (Create, Read, Update, Delete) on an Employee database using MySQL.
@@ -77,11 +78,9 @@ cd EmployeeJDBCProject
 
 
 
-
-#Compile and run using Maven:
+Compile and run using Maven:
 
 mvn clean compile exec:java -Dexec.mainClass="JDBC.EmployeeJDBC"
-
 
 The console menu will appear. Choose options to perform operations on the Employee database.
 
@@ -95,12 +94,3 @@ MySQL Connector/J: Included in pom.xml
     <version>8.1.0</version>
 </dependency>
 
-
-
-#Notes
-
-Use classic switch-case syntax if using Java < 14.
-
-Make sure MySQL server is running and the database Insys exists.
-
-This is a console application, not a GUI application.
