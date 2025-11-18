@@ -1,5 +1,5 @@
 # EmployeeJDBC
-Employee JDBC Management Project
+#Employee JDBC Management Project
 Project Overview
 
 This is a simple Java JDBC console application that performs CRUD operations (Create, Read, Update, Delete) on an Employee database using MySQL.
@@ -20,7 +20,7 @@ Console-based menu-driven interface.
 
 
 
-MySQL database
+#MySQL database
 
 JDBC (Java Database Connectivity)
 
@@ -78,7 +78,7 @@ cd EmployeeJDBCProject
 
 
 
-Compile and run using Maven:
+#Compile and run using Maven:
 
 mvn clean compile exec:java -Dexec.mainClass="JDBC.EmployeeJDBC"
 
@@ -97,7 +97,7 @@ MySQL Connector/J: Included in pom.xml
 
 
 
-Notes
+#Notes
 
 Use classic switch-case syntax if using Java < 14.
 
